@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Customize your dark theme here. -->
+    <color name="my_dark_primary">#FFD700</color> <!-- Heading Color -->
+    <color name="my_dark_on_primary">#000000</color> <!-- Text Color on Primary -->
+    <color name="my_dark_secondary">#03DAC5</color>
+    <color name="my_dark_on_secondary">#000000</color>
+    <color name="my_dark_background">#1E1E1E</color> <!-- Background Color -->
+    <color name="my_dark_on_background">#FFFFFF</color> <!-- Text on Background -->
+    <color name="my_dark_surface">#2C2C2C</color> <!-- Surface Color -->
+    <color name="my_dark_on_surface">#FFFFFF</color> <!-- Text on Surface -->
+</resources>

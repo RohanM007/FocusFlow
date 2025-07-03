@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Customize your light theme here. -->
+    <color name="my_light_primary">#FFD700</color> <!-- Heading Color -->
+    <color name="my_light_secondary">#03DAC5</color>
+    <color name="my_light_on_secondary">#000000</color>
+    <color name="my_light_background">#737373</color> <!-- Background Color -->
+    <color name="my_light_surface">#FFFFFF</color>
+    <color name="my_light_on_surface">#000000</color>
+</resources>

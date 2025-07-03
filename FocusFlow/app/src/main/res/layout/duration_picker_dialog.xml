@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:elevation="4dp"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:clipToPadding="false">
+
+    <!-- TextView for Hours label -->
+    <TextView
+        android:id="@+id/tvHoursLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:text="@string/hours"
+        android:textAllCaps="true"
+        android:textSize="18sp"
+        />
+
+    <!-- Number picker for hours -->
+    <NumberPicker
+        android:id="@+id/numberPickerHours"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:layout_marginStart="8dp"
+        />
+
+    <!-- TextView for Minutes label -->
+    <TextView
+        android:id="@+id/tvMinutesLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:text="@string/minutes"
+        android:textAllCaps="true"
+        android:textSize="18sp"
+         />
+
+    <!-- Number picker for minutes -->
+    <NumberPicker
+        android:id="@+id/numberPickerMinutes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         />
+
+</LinearLayout>
